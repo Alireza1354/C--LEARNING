@@ -58,7 +58,7 @@ namespace MyApplication
 			catch (System.Exception ex)
 			{
 				System.Windows.Forms.MessageBox.Show(ex.Message);
-
+                string ms = ex.Message.ToString();
 				return;
 			}
 			finally

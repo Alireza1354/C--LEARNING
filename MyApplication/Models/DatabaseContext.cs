@@ -14,7 +14,7 @@
 
         public System.Data.Entity.DbSet<User> Users { get; set; }
         public System.Data.Entity.DbSet<Book> Books { get; set; }
-
+        public System.Data.Entity.DbSet<Car> Cars { get; set; }
 
     }
 }
