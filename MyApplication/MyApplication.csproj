@@ -95,6 +95,10 @@
     <Compile Include="Migrations\201808081906264_InitialCreate.Designer.cs">
       <DependentUpon>201808081906264_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808311410528_AddCarTable.cs" />
+    <Compile Include="Migrations\201808311410528_AddCarTable.Designer.cs">
+      <DependentUpon>201808311410528_AddCarTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Book.cs" />
@@ -153,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808081906264_InitialCreate.resx">
       <DependentUpon>201808081906264_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808311410528_AddCarTable.resx">
+      <DependentUpon>201808311410528_AddCarTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
